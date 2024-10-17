@@ -16,7 +16,7 @@ const SkillItem = ({ name }) => (
 );
 
 const SkillCategory = ({ title, skills, icon }) => (
-  <div className="bg-white p-6 rounded-lg shadow-md rounded-2xl	opacity-80" style={{
+  <div className="bg-white p-6 rounded-lg shadow-md	opacity-80" style={{
     background: 'linear-gradient(85deg, rgb(26 6 61) 0%, rgb(20 10 59) 13%, rgb(12 8 53) 51%, rgb(22 3 33) 100%)'
 ,
   }}>

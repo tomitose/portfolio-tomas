@@ -10,8 +10,8 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw] text-3xl font-heading mb-12 font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-          Let's Collaborate on Your{" "}
-          <span className="text-purple">Next Project </span>
+        Let's Connect on{" "}
+          <span className="text-purple">Future Opportunities </span>
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center text-xl font-heading mb-12 font-bold  bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
           If you have any questions or are looking for a passionate Front-End

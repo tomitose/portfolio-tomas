@@ -24,7 +24,7 @@ const tailwindConfig = {
         blue: {
           "100": "#E4ECFF",
         },
-        purple: "#CBACF9",
+        purple: "#a77fe2",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
