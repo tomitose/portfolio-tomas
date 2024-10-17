@@ -1,69 +1,82 @@
-import React from 'react';
-import { ExternalLink, Github } from 'lucide-react';
+import React from "react";
+import { FaLocationArrow } from "react-icons/fa6";
+import { projects } from "../data/index";
+import { PinContainer } from "./ui/Pin";
 
-const ProjectCard = ({ title, description, technologies, liveUrl, isPersonal = true }) => (
-  <div className="bg-white rounded-lg shadow-md overflow-hidden">
-    <div className="p-6">
-      <h3 className="text-xl font-bold mb-2">{title}</h3>
-      <p className="text-gray-600 mb-4">{description}</p>
-      <div className="mb-4">
-        <h4 className="font-semibold mb-2">Technologies used:</h4>
-        <div className="flex flex-wrap gap-2">
-          {technologies.map((tech, index) => (
-            <span key={index} className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm">
-              {tech}
-            </span>
-          ))}
-        </div>
-      </div>
-      <div className="flex space-x-4">
-        <a href={liveUrl} target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-primary">
-          <ExternalLink size={16} className="mr-2" /> View Project
-        </a>
-        {isPersonal && (
-          <a href="https://github.com/tomitose" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline">
-            <Github size={16} className="mr-2" /> GitHub
-          </a>
-        )}
+const RecentProjects = function() {
+  return (
+    <div className="py-20" style={{
+      background: 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(30,20,32,1) 26%, rgba(21,2,32,1) 100%)'
+,
+    }}>
+      <h1 className="heading text-center text-3xl font-heading font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+        A small selection of{" "}
+        <span className="text-purple">recent projects</span>
+      </h1>
+      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
+        {projects.map((item) => {
+          return (
+            <div
+              className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+              key={item.id}
+            >
+              <PinContainer 
+                title={item.title} 
+                href={item.link}
+              >
+                <a href={item.link} target="_blank" rel="noopener noreferrer" className="block">
+                  <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+                    <img
+                      src={item.img}
+                      alt="cover"
+                      className="z-10 absolute bottom-0"
+                    />
+                  </div>
+
+                  <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+                    {item.title}
+                  </h1>
+
+                  <p
+                    className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                    style={{
+                      color: "#BEC1DD",
+                      margin: "1vh 0",
+                    }}
+                  >
+                    {item.des}
+                  </p>
+
+                  <div className="flex items-center justify-between mt-7 mb-3">
+                    <div className="flex items-center">
+                      {item.iconLists.map((icon, index) => (
+                        <div
+                          key={index}
+                          className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                          style={{
+                            transform: `translateX(-${5 * index + 2}px)`,
+                          }}
+                        >
+                          <img src={icon} alt="icon" className="p-2" />
+                        </div>
+                      ))}
+                    </div>
+
+                    <div className="flex justify-center items-center">
+                      <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                        Check Live Site
+                      </p>
+                      <FaLocationArrow className="ms-3" color="#CBACF9" />
+                    </div>
+                  </div>
+                </a>
+              </PinContainer>
+            </div>
+          );
+        })}
       </div>
     </div>
-  </div>
-);
-
-const Projects = () => {
-  const projects = [
-    {
-      title: "E-commerce Platform",
-      description: "A fully functional e-commerce website with product catalog, shopping cart, and secure checkout.",
-      technologies: ["React", "Node.js", "Express", "MongoDB"],
-      liveUrl: "https://example-ecommerce.com",
-    },
-    {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates and team features.",
-      technologies: ["Angular", "Firebase", "RxJS"],
-      liveUrl: "https://example-taskmanager.com",
-    },
-    {
-      title: "Weather Dashboard",
-      description: "A responsive weather dashboard that displays current conditions and forecasts for multiple locations.",
-      technologies: ["React", "OpenWeatherMap API", "Chart.js"],
-      liveUrl: "https://example-weather.com",
-    },
-  ];
-
-  return (
-    <section id="projects" className="py-20 bg-gray-100">
-      <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-heading font-bold mb-12 text-center">Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
-            <ProjectCard key={index} {...project} />
-          ))}
-        </div>
-      </div>
-    </section>
   );
 };
 
-export default Projects;
+export default RecentProjects;

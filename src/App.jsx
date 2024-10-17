@@ -1,18 +1,21 @@
 import React from 'react';
-import Header from './components/Header';
+// import Header from './components/Header';
+import { navItems } from "./data/index";
+
 import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import UIDesigns from './components/UIDesigns';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { FloatingNav } from './components/ui/FloatingNavbar';
 
 function App() {
   return (
     <div className="min-h-screen bg-gray-100 text-gray-800">
-      <Header />
+      <FloatingNav navItems={navItems} />
+      {/* <Header /> */}
       <main>
         <Hero />
         <About />
@@ -20,7 +23,6 @@ function App() {
         <Experience />
         <Projects />
         <UIDesigns />
-        <Contact />
       </main>
       <Footer />
     </div>

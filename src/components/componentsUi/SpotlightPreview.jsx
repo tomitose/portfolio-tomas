@@ -1,7 +1,6 @@
 import React from "react";
 import { Spotlight } from "../ui/Spotlight";
-import { Github, Linkedin } from 'lucide-react';
-
+import { Github, Linkedin } from "lucide-react";
 
 export function SpotlightPreview() {
   return (
@@ -17,7 +16,7 @@ export function SpotlightPreview() {
         />
         <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
       </div>
-      <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0">
+      <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-40 md:pt-30">
         <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
           Tomás Tosello
         </h1>
@@ -29,14 +28,23 @@ export function SpotlightPreview() {
         </h2>
 
         <p className="mt-4 font-normal text-xl text-neutral-300 max-w-lg text-center mx-auto">
-          Passionate about creating beautiful and functional web experiences.
-          Always seeking new challenges and opportunities to grow.
+          Committed to innovating user experiences through the perfect balance of design and functionality
         </p>
         <div className="flex justify-center space-x-4 pt-12">
-          <a href="https://github.com/tomitose" target="_blank" rel="noopener noreferrer" className="btn btn-outline btn-light">
+          <a
+            href="https://github.com/tomitose"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-outline btn-light hover:text-purple hover:border-purple"
+          >
             <Github className="mr-2" /> GitHub
           </a>
-          <a href="https://www.linkedin.com/in/tomas-tosello" target="_blank" rel="noopener noreferrer" className="btn btn-outline btn-light">
+          <a
+            href="https://www.linkedin.com/in/tomas-tosello"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-outline btn-light hover:text-purple hover:border-purple"
+          >
             <Linkedin className="mr-2" /> LinkedIn
           </a>
         </div>

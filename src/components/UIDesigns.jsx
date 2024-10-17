@@ -20,8 +20,8 @@ const UIDesigns = () => {
     {
       title: "Design Project 1",
       description: "A brief description of Design Project 1.",
-      imageUrl: "https://example.com/image1.jpg",
-      figmaUrl: "https://www.figma.com/file/1",
+      imageUrl: "/cuos-illus.png",
+      figmaUrl: "https://www.behance.net/gallery/204110637/Manual-de-identidad-CUOS",
     },
     {
       title: "Design Project 2",
@@ -33,9 +33,12 @@ const UIDesigns = () => {
   ];
 
   return (
-    <section id="ui-designs" className="py-20 bg-gray-100">
+    <section id="ui-designs" className="py-20 bg-gray-100" style={{
+      background: 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(30,20,32,1) 26%, rgba(21,2,32,1) 100%)'
+,
+    }}>
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-heading font-bold mb-12 text-center">UI Designs</h2>
+        <h2 className="text-3xl font-heading font-bold mb-12 font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">UI Designs</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {designs.map((design, index) => (
             <DesignCard key={index} {...design} />
