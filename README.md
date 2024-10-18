@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Tomás Tosello's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) 
+![Vite](https://img.shields.io/badge/Vite-643CFF?style=flat-square&logo=vite&logoColor=white) 
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white) 
+![DaisyUI](https://img.shields.io/badge/DaisyUI-3D7D35?style=flat-square&logo=daisyui&logoColor=white) 
+![Acernity](https://img.shields.io/badge/Acernity-5B3D8A?style=flat-square&logo=acernity&logoColor=white) 
 
-## Available Scripts
+## About Me
+I am a passionate **Front-end Developer** and **UX/UI Designer** committed to innovating user experiences through the perfect balance of design and functionality. Always seeking new challenges, I strive to expand my skills and stay updated with the latest industry tools.
 
-In the project directory, you can run:
+## Project Overview
+This portfolio showcases my work as a Front-end Developer and UX/UI Designer. It highlights my skills in creating responsive and engaging web applications, intuitive user interfaces, and collaboration with teams to bring projects to life.
 
-### `npm start`
+### Skills & Expertise
+- **Front-end Development**: React, Angular, HTML, CSS, JavaScript, TypeScript
+- **UI/UX Design**: Figma, Photoshop, Illustrator
+- **Back-end & Databases**: MySQL, MongoDB, GraphQL, Strapi
+- **Tools**: Git, GitHub, Node.js, Vite
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run this portfolio locally, follow these steps:
 
-### `npm test`
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/tomitose/portfolio-tomas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   
 
-### `npm run build`
+2. **Navigate to the Project Directory**:
+bash
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+cd your-repo-name
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Install Dependencies: Make sure you have Node.js installed. Then run:**:
+bash
+npm run dev
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Open in Your Browser: Go to http://localhost:3000 to view portfolio.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Technologies Used
+. React: For building user interfaces.
+. Vite: For fast development and build processes.
+. Tailwind CSS: For modern CSS styling.
+. DaisyUI: To enhance Tailwind components.
+. Acernity: To manage state and logic seamlessly.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Thank you for checking out my portfolio! I’m excited to share my work with you. 🚀
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+✨✨✨🎊🎊🎊✨✨🎉🎉🎉✨✨🌟🌟🌟
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions or opportunities, feel free to reach out! Let’s create something amazing together. 🌟
