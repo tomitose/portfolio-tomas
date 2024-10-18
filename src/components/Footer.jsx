@@ -10,7 +10,7 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw] text-3xl font-heading mb-12 font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-        Let's Connect on{" "}
+        Let's Connect for{" "}
           <span className="text-purple">Future Opportunities </span>
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center text-xl font-heading mb-12 font-bold  bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
@@ -62,6 +62,9 @@ const Footer = () => {
         <img src="/tt-violet.png" alt="logo" className="text-center h-28"/>
         <p className="md:text-base text-sm md:font-normal font-light text-purple pt-4 ">
         Copyright © 2024 Tomás Tosello
+        </p>
+        <p className="md:text-base text-sm md:font-normal font-light text-purple pt-4 ">
+        Córdoba, Argentina 
         </p>
       </div>
     </footer>

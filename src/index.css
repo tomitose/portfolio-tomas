@@ -6,6 +6,10 @@
     margin-top: -78px;
 }
 
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 @media (max-width: 600px) {
     :root{
         margin-top: -78px;

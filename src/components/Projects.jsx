@@ -42,7 +42,7 @@ const RecentProjects = function () {
                   />
                 </div>
 
-                <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+                <h1 className="text-xl font-bold mb-2 font-bold lg:text-2xl md:text-xl text-base line-clamp-1 font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
                   {item.title}
                 </h1>
 
@@ -110,7 +110,7 @@ const RecentProjects = function () {
                   />
                 </div>
 
-                <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+                <h1 className="text-xl font-bold mb-2 font-bold lg:text-2xl md:text-xl text-base line-clamp-1 font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
                   {item.title}
                 </h1>
 

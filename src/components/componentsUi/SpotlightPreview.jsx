@@ -4,7 +4,7 @@ import { Github, Linkedin } from "lucide-react";
 
 export function SpotlightPreview() {
   return (
-    <div className="h-screen w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden md:mt-3 mt-20">
+    <div className="h-screen  w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden md:mt-3 mt-20">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen "
@@ -16,7 +16,7 @@ export function SpotlightPreview() {
         />
         <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
       </div>
-      <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-40 md:pt-30">
+      <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-72 md:pt-30">
         <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
           Tomás Tosello
         </h1>

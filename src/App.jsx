@@ -1,5 +1,4 @@
 import React from 'react';
-// import Header from './components/Header';
 import { navItems } from "./data/index";
 
 import Hero from './components/Hero';
@@ -15,7 +14,6 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 text-gray-800">
       <FloatingNav navItems={navItems} />
-      {/* <Header /> */}
       <main>
         <Hero />
         <About />

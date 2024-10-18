@@ -16,24 +16,25 @@ const ExperienceItem = ({ title, company, period, description }) => (
 const Experience = () => {
   const experiences = [
     {
-      title: "Front-end Developer and Ux/Ui Designer",
+      title: "Front-end Developer and UX/UI Designer",
       company: "Cuos S.A.",
       period: "Feb 2021 - Present",
-      description: "Developed and maintained responsive web applications using React and Angular. Collaborated with UX/UI designers to implement pixel-perfect designs."
+      description: "Developed and maintained responsive web applications using React and Angular. Collaborated with a team of developers on various projects, providing innovative solutions to meet clients' needs."
     },
     {
-      title: "Front-end Developer and Ux/Ui Designer",
+      title: "Lead Front-end Developer and UX/UI Designer",
       company: "Wishmakers",
-      period: "2024 Mar - Present",
-      description: "Developed and maintained responsive web applications using React. Gained experience in HTML, CSS, and JavaScript."
+      period: "Mar 2024 - Present",
+      description: "Leading front-end development (React) and UX/UI design (Figma,Illustrator) in a freelance team. We work on independent projects with the goal of attracting potential clients by providing them with the best services and tailored technological solutions."
     },
     {
-      title: "Front-end Developer Junior",
+      title: "Junior Front-end Developer",
       company: "H-Virtual",
-      period: "Sep 2021- Jan 2023",
-      description: "Developed and maintained responsive web applications using React and Angular. Gained experience in HTML, CSS, and JavaScript."
+      period: "Sep 2021 - Jan 2023",
+      description: "Developed and maintained the E-learning platform, focusing on responsive web applications. Gained valuable experience in HTML, CSS, and JavaScript, contributing to the improvement of user experience and platform functionality."
     }
   ];
+  
 
   return (
     <section id="experience" className="py-20 bg-black/[0.96]">
