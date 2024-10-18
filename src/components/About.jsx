@@ -86,7 +86,7 @@ function About() {
                 }}
               >
                 <figure className="px-10 pt-10">
-                  <info.icon className={`w-16 h-16 ${info.color}`} />
+                  <info.icon className={`w-14 h-14 md:w-16 md:h-16 ${info.color}`} />
                 </figure>
                 <div className="card-body items-center text-center">
                   <h3 className="card-title text-white">{info.title}</h3>

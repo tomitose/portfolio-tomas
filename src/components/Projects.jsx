@@ -17,8 +17,8 @@ const RecentProjects = function () {
       }}
     >
       {/* Sección de proyectos realizados solo */}
-      <h1 className="heading text-3xl font-heading font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-        <span className="text-purple">Solo Projects</span> I've Worked On
+      <h1 className="heading text-3xl font-heading font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 px-6">
+        <span className="text-purple ">Solo Projects</span> I've Worked On
       </h1>
 
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
@@ -85,8 +85,8 @@ const RecentProjects = function () {
       </div>
 
       {/* Sección de proyectos colaborativos */}
-      <h1 className="heading text-3xl font-heading font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 mt-20">
-        <span className="text-purple">Collaborative Projects</span> I've Worked On
+      <h1 className="heading text-3xl font-heading font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 mt-20 px-6">
+        <span className="text-purple ">Collaborative Projects</span> I've Worked On
       </h1>
 
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">

@@ -13,26 +13,26 @@ const Footer = () => {
         Let's Connect for{" "}
           <span className="text-purple">Future Opportunities </span>
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center text-xl font-heading mb-12 font-bold  bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+        <p className="text-white-200 md:mt-10 my-5 text-center text-xl font-heading mb-12 font-bold  bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 px-6">
           If you have any questions or are looking for a passionate Front-End
           Developer to elevate your projects, feel free to reach out.
         </p>
         <section id="contact" className="py-20 ">
       <div className="container mx-auto px-6">
         
-        <div className="max-w-md mx-auto bg-white shadow-md p-8   rounded-2xl opacity-80" 
+        <div className="bg-white shadow-md p-8  rounded-2xl opacity-80 w-[340px] md:w-[600px]" 
           style={{
             background: 'linear-gradient(85deg, rgb(26 6 61) 0%, rgb(20 10 59) 13%, rgb(12 8 53) 51%, rgb(22 3 33) 100%)'
           }}>
             <h2 className="text-3xl font-heading mb-12 font-bold  text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
               Contact Me
             </h2>
-            <div className="flex justify-center space-x-4 pt-12">
+            <div className="flex flex-col sm:flex-row items-center sm:justify-between gap-4">
               <a
                 href="https://github.com/tomitose"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-outline btn-light text-zinc-400 hover:text-purple"
+                className="btn btn-outline btn-light text-zinc-400 hover:text-purple w-[160px]"
               >
                 <Github className="mr-2" /> GitHub
               </a>
@@ -40,7 +40,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/tomas-tosello"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-outline btn-light text-zinc-400 hover:text-purple"
+                className="btn btn-outline btn-light text-zinc-400 hover:text-purple w-[160px]"
               >
                 <Linkedin className="mr-2" /> LinkedIn
               </a>
@@ -48,7 +48,7 @@ const Footer = () => {
                 href="mailto:tomitosello@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-outline btn-light text-zinc-400 hover:text-purple"
+                className="btn btn-outline btn-light text-zinc-400 hover:text-purple w-[160px]"
               >
                 <Mail className="mr-2" /> Mail
               </a>
