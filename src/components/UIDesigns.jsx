@@ -81,7 +81,7 @@ const DesignCard = ({ title, description, imageUrl, figmaUrl }) => (
         <h2 className="text-3xl font-heading font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
           Some of my <span className="text-purple"> UI Design Projects</span>
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-2 md:px-20">
           {designs.map((design, index) => (
             <DesignCard key={index} {...design} />
           ))}
