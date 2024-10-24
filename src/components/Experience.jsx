@@ -28,6 +28,11 @@ const Experience = () => {
       description: "Leading front-end development (React) and UX/UI design (Figma,Illustrator) in a freelance team. We work on independent projects with the goal of attracting potential clients by providing them with the best services and tailored technological solutions."
     },
     {
+      title: "Administative Section",
+      company: "Integrametrics",
+      period: "Mar 2015 - Present",
+      description: "Responsible for overseeing customer quality control, ensuring service standards are met, and handling customer inquiries and complaints with efficiency and professionalism."    },
+    {
       title: "Junior Front-end Developer",
       company: "H-Virtual",
       period: "Sep 2021 - Jan 2023",
