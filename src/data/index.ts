@@ -64,6 +64,23 @@ export const projects = [
     iconLists: ["/logos/angular.svg", "/logos/mysql.svg", "/logos/html.svg", "/logos/css.svg", "/logos/typescript.svg"],
     link: "https://desarrolloyempleo.cba.gov.ar/programa-empleo-26/",
   },
+  {
+    id: 8,
+    title: "Methexis",
+    des: "Methexis is a collaborative learning project that connects students and mentors in a dynamic environment.",
+    img: "/methexis.png",
+    iconLists: ["/logos/react.svg", "/logos/mongodb.svg", "/logos/html.svg", "/logos/css.svg", "/logos/typescript.svg","/logos/tailwind.svg","/logos/socket.svg"],
+    link: "https://methexisacademy.com/",
+  },
+  {
+    id: 9,
+    title: "Cuos",
+    des: "Cuos System is a software development company delivering innovative web solutions for businesses.",
+    img: "/cuos-web.png",
+    iconLists: ["/logos/angular.svg", "/logos/html.svg", "/logos/css.svg", "/logos/typescript.svg","/logos/figma.svg"],
+    link: "https://cuos.com.ar/",
+  },
+
 ];
   
   
