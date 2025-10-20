@@ -13,7 +13,7 @@ export const projects = [
     title: "Em Inmobiliaria",
     des: "Real estate website to view properties for rent and sale.",
     img: "/em-inmobiliaria.png",
-    iconLists: ["/logos/react.svg", "/logos/tailwind.svg", "/logos/vite.svg", "/logos/strapi.svg", "/logos/graphql.svg"],
+    iconLists: ["/logos/react.svg", "/logos/tailwind.svg", "/logos/vite.svg", "/logos/strapi.svg", "/logos/graphql.svg", "/logos/restapi.png"],
     link: "https://eminmobiliaria.com.ar/",
   },
   {
@@ -37,7 +37,7 @@ export const projects = [
     title: "Integrametrics",
     des: "Company focused on monitoring and analyzing advertising.",
     img: "/integra2.png",
-    iconLists: ["/logos/next.webp", "/logos/mysql.svg", "/logos/html.svg", "/logos/css.svg", "/logos/typescript.svg"],
+    iconLists: ["/logos/next.webp", "/logos/mysql.svg", "/logos/html.svg", "/logos/css.svg", "/logos/typescript.svg", "/logos/restapi.png"],
     link: "https://integra-metrics.com/",
   },
   {
@@ -45,7 +45,7 @@ export const projects = [
     title: "Horus",
     des: "Company providing surveillance services for guards and kiosks with assistance.",
     img: "/horus2.png",
-    iconLists: ["/logos/angular.svg", "/logos/mysql.svg", "/logos/socket.svg", "/logos/html.svg", "/logos/css.svg", "/logos/typescript.svg"],
+    iconLists: ["/logos/angular.svg", "/logos/mysql.svg", "/logos/socket.svg", "/logos/html.svg", "/logos/css.svg", "/logos/typescript.svg", "/logos/restapi.png"],
     link: "https://horus.com.ar/",
   },
   {
@@ -53,7 +53,7 @@ export const projects = [
     title: "Divishare",
     des: "A web/application we developed with Wishmakers for expense division.",
     img: "/divishare-prototype.png",
-    iconLists: ["/logos/react.svg", "/logos/tailwind.svg", "/logos/vite.svg", "/logos/socket.svg", "/logos/html.svg", "/logos/javascript.svg"],
+    iconLists: ["/logos/react.svg", "/logos/tailwind.svg", "/logos/vite.svg", "/logos/socket.svg", "/logos/html.svg", "/logos/javascript.svg", "/logos/restapi.png","/logos/figma.svg"],
     link: "https://divishare.com/",
   },
   {
@@ -61,7 +61,7 @@ export const projects = [
     title: "Ministerio Plan 26",
     des: "Program +26 is a project aimed at unemployed individuals seeking work.",
     img: "/ministerio.png",
-    iconLists: ["/logos/angular.svg", "/logos/mysql.svg", "/logos/html.svg", "/logos/css.svg", "/logos/typescript.svg"],
+    iconLists: ["/logos/angular.svg", "/logos/mysql.svg", "/logos/html.svg", "/logos/css.svg", "/logos/typescript.svg", "/logos/restapi.png"],
     link: "https://desarrolloyempleo.cba.gov.ar/programa-empleo-26/",
   },
   {
@@ -69,7 +69,7 @@ export const projects = [
     title: "Methexis",
     des: "Methexis is a collaborative learning project that connects students and mentors in a dynamic environment.",
     img: "/methexis.png",
-    iconLists: ["/logos/react.svg", "/logos/mongodb.svg", "/logos/html.svg", "/logos/css.svg", "/logos/typescript.svg","/logos/tailwind.svg","/logos/socket.svg"],
+    iconLists: ["/logos/react.svg", "/logos/mongodb.svg", "/logos/html.svg", "/logos/css.svg", "/logos/typescript.svg","/logos/tailwind.svg","/logos/socket.svg", "/logos/restapi.png"],
     link: "https://methexisacademy.com/",
   },
   {
@@ -79,6 +79,14 @@ export const projects = [
     img: "/cuos-web.png",
     iconLists: ["/logos/angular.svg", "/logos/html.svg", "/logos/css.svg", "/logos/typescript.svg","/logos/figma.svg"],
     link: "https://cuos.com.ar/",
+  },
+  {
+    id: 10,
+    title: "Marca Latam",
+    des: "Marca Latam is web platform designed to help you register and legally protect your trademark, from initial database search to final registration.",
+    img: "/marca-latam.png",
+    iconLists: ["/logos/angular.svg", "/logos/html.svg", "/logos/css.svg", "/logos/typescript.svg", "/logos/restapi.png"],
+    link: "https://marcalatam.com/",
   },
 
 ];
