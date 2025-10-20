@@ -7,15 +7,26 @@ const SkillLogo = ({ name }) => {
   const baseUrl = `/logos/${name.toLowerCase().replace(/\s+/g, '-')}`;
   const logoUrlSvg = `${baseUrl}.svg`;
   const logoUrlPng = `${baseUrl}.png`;
+  const logoUrlWebp = `${baseUrl}.webp`;
+
+  const handleError = (e) => {
+    if (e.target.src.endsWith('.svg')) {
+      e.target.src = logoUrlPng; // si falla el SVG → intenta PNG
+    } else if (e.target.src.endsWith('.png')) {
+      e.target.src = logoUrlWebp; // si falla el PNG → intenta WEBP
+    } else {
+      e.target.onerror = null; // si también falla el WEBP, corta el bucle
+      e.target.src = '/logos/default.png'; // opcional: imagen fallback final
+    }
+  };
+
+
 
   // Usamos un evento onError para intentar cargar el PNG si el SVG falla
   return (
     <img
       src={logoUrlSvg}
-      onError={(e) => {
-        e.target.onerror = null; // Evitar bucle infinito
-        e.target.src = logoUrlPng; // Cargar el PNG si el SVG falla
-      }}
+      onError={handleError}
       alt={`${name} logo`}
       className="w-6 h-6 mr-2"
     />
@@ -85,7 +96,7 @@ const Skills = () => {
     {
       title: "Front-end Development",
       icon: <Code size={24} />,
-      skills: ["React", "Angular", "HTML", "CSS", "JavaScript", "TypeScript", "Wordpress"]
+      skills: ["React","Next", "Angular", "HTML", "CSS", "JavaScript", "TypeScript", "Wordpress"]
     },
     {
       title: "Back-end & Databases",

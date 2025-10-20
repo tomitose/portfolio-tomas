@@ -7,7 +7,7 @@ const ExperienceItem = ({ title, company, period, description }) => (
       <Briefcase size={20} className="mr-2 text-purple" />
       <h3 className="text-xl font-bold text-purple">{title}</h3>
     </div>
-    <p className="text-lg font-semibold text-xl text-neutral-300  mx-auto">{company}</p>
+    <p className="text-lg font-semibold text-neutral-300  mx-auto">{company}</p>
     <p className="text-md text-neutral-300 mb-2">{period}</p>
     <p className="text-md text-neutral-300 mb-2">{description}</p>
   </div>

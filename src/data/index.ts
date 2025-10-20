@@ -37,7 +37,7 @@ export const projects = [
     title: "Integrametrics",
     des: "Company focused on monitoring and analyzing advertising.",
     img: "/integra2.png",
-    iconLists: ["/logos/angular.svg", "/logos/mysql.svg", "/logos/html.svg", "/logos/css.svg", "/logos/typescript.svg"],
+    iconLists: ["/logos/next.webp", "/logos/mysql.svg", "/logos/html.svg", "/logos/css.svg", "/logos/typescript.svg"],
     link: "https://integra-metrics.com/",
   },
   {
